@@ -37,9 +37,7 @@ jobs:
             const {fromPullRequest} = await import(`${process.env.GITHUB_WORKSPACE}/scripts/bot.mjs`);
             await fromPullRequest({github, context});
   verify:
-    if: >-
-      github.event_name == 'issue_comment' && startsWith(github.event.comment.body, '/verify') &&
-      (github.event.comment.user.login == github.event.issue.user.login || contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association))
+    if: ${{ github.event_name == 'issue_comment' && startsWith(github.event.comment.body, '/verify') && (github.event.comment.user.login == github.event.issue.user.login || github.event.comment.author_association == 'OWNER' || github.event.comment.author_association == 'MEMBER' || github.event.comment.author_association == 'COLLABORATOR') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
