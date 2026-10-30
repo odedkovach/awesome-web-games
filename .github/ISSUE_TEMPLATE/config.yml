@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Register from your coding agent (MCP)
+    url: https://appside.build/docs/catalog/
+    about: Your agent can list the game with register_app at https://appside.build/mcp, no form needed.

@@ -1,0 +1,8 @@
+[
+  {"name": "2048", "play": "https://play2048.co/", "source": "https://github.com/gabrielecirulli/2048", "license": "MIT", "description": "Slide numbered tiles and merge them to reach 2048."},
+  {"name": "A Dark Room", "play": "https://adarkroom.doublespeakgames.com/", "source": "https://github.com/doublespeakgames/adarkroom", "license": "MPL-2.0", "description": "A minimalist text adventure that grows from a single fire."},
+  {"name": "HexGL", "play": "https://hexgl.bkcore.com/play/", "source": "https://github.com/BKcore/HexGL", "license": "MIT", "description": "A futuristic HTML5 and WebGL racing game."},
+  {"name": "Lichess", "play": "https://lichess.org/", "source": "https://github.com/lichess-org/lila", "license": "AGPL-3.0", "description": "Free, ad-free online chess with puzzles, tournaments and analysis."},
+  {"name": "React Tetris", "play": "https://chvin.github.io/react-tetris/?lan=en", "source": "https://github.com/chvin/react-tetris", "description": "Classic Tetris rebuilt with React, Redux and Immutable."},
+  {"name": "Untrusted", "play": "https://untrustedgame.com/", "source": "https://github.com/AlexNisnevich/untrusted", "description": "A meta-JavaScript adventure: edit the game's own code to escape each level."}
+]

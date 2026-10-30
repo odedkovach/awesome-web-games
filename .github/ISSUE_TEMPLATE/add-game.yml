@@ -1,0 +1,33 @@
+name: Add a game
+description: List a game you made. A bot registers it and replies with an ownership token.
+title: "Add game: "
+labels: [add-game]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only list a game whose website or store listing you control: you will publish a token there to prove it. Everything in this form is public. Do not add an email address.
+  - type: input
+    attributes: {label: Game name, description: "1-60 characters"}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Website, description: "HTTPS site on a domain you control. Leave empty for a store-only game.", placeholder: "https://mygame.example"}
+  - type: textarea
+    attributes: {label: Short description, description: "25-300 characters, plain text"}
+    validations: {required: true}
+  - type: checkboxes
+    attributes:
+      label: Platforms
+      options:
+        - label: web
+        - label: ios
+        - label: android
+        - label: windows
+        - label: macos
+        - label: linux
+  - type: input
+    attributes: {label: Playable web build URL, description: "Optional. On the same domain as Website, or on itch.io. Adds a Play button."}
+  - type: input
+    attributes: {label: App Store URL, description: Optional}
+  - type: input
+    attributes: {label: Google Play URL, description: Optional}
