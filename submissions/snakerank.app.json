@@ -1,0 +1,7 @@
+{
+  "name": "SnakeRank",
+  "url": "https://snakerank.app/",
+  "description": "Browser Snake game with ranked runs. Play instantly in the browser; email sign-in is only required to save ranked scores.",
+  "platforms": ["web"],
+  "webBuildUrl": "https://snakerank.app/"
+}
