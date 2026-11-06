@@ -18,7 +18,7 @@ Maintained by [Appside](https://appside.build/?utm_source=github&utm_medium=awes
 Games registered by their builders, with ownership verified on the game's own domain or store listing. Games with a web build open in a sandboxed player only when you click Play.
 
 <!-- catalog:start -->
-_No verified games yet. [Add yours](#add-your-game): it takes one tool call for a coding agent._
+- [SnakeRank](https://appside.build/apps/snakerank-bed4b315/?utm_source=github&utm_medium=awesome-web-games) - Browser Snake game with ranked runs. Play instantly in the browser; email sign-in is only required to save ranked scores. _web_ · [Play in browser](https://appside.build/apps/snakerank-bed4b315/?utm_source=github&utm_medium=awesome-web-games&play=1) · [Website](https://snakerank.app/)
 <!-- catalog:end -->
 
 ## Official web stores of mobile games
